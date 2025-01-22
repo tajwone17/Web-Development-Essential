@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Menu Styles */
+.menu-container {
+  position: relative;
+}
+
+.menu {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu a {
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #00ced1;
+  color: white;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .menu {
+    /* display: none; */
+    flex-direction: column;
+  }
+
+  .menu a {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* .menu.show {
+        display: flex;
+    } */
+  .box {
+    width: 50%;
+    /* margin: 1%; */
+   
+  }
+}
+
+.box {
+  width: 25%;
+  background-color: #00ced1;
+  color: white;
+  margin: 10px;
+}
+.container {
+  display: flex;
+
+  justify-content: space-evenly;
+ 
+}
