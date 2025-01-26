@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "name": "Tajwone",
+      "id": 5623,
+      "age":22,
+      "married":false,
+      "course": ["dbms", "ai", "os"],
+      "project":"NULL",
+      "Friends":[
+        {
+            "name":"Chowdhury",
+            "phone":"01720671208"
+        }
+      ]
+    },
+    {
+        "name": "Jakaria",
+        "id": 598223,
+        "age":21,
+        "married":true,
+        "course": ["ECE", "EEE", "STL"],
+        "project":"ABCD",
+        "Friends":[
+          {
+              "name":"Ahmed",
+              "phone":"01996995521"
+          }
+        ]
+      }
+  ]
+}
