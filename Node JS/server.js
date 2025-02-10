@@ -3,7 +3,7 @@ const server = http.createServer((req, res) => {
   if (req.url === "/") {
     res.end("Welcome to the homepage");
   } else if (req.url === "/about") {
-    res.end("About page");
+    res.end("About us page here");
   } else {
     res.writeHead(404);
     res.end("page not found");
